@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3em;
+    margin:1em 0;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+input[type="text"] {
+    margin:0 auto;
+    display:block;
+    padding:0.5em;
+    font-family: "Montserrat", sans-serif;
+    min-width: 400px;
+
+}
+
+#noResultsText {
+    color:#888;
+    font-size:1.5em;
+    text-align: center;
+}
+
+#userSection {
+    padding: 2em 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    grid-gap: 1em;
+    justify-content: center;
+}
+
+#userSection > div {
+    background-color: #fefefe;
+    width: 270px;
+    border:1px solid #000;
+    display:grid;
+    grid-template-columns: 72px 1fr;
+    transition: background-color 0.2s ease;
+}
+#userSection > div:hover {
+    background-color:#e6efff;
+}
+
+#usersection > div > img {
+    display:inline-block;
+
+}
+
+.textContainer{
+    display: inline-block;
+    height:100%;
+    width:100%;
+}
+
+.textContainer > p{
+   padding:0 0 0 0.5em;
+   margin:0;
+   display:flex;
+   justify-content: center;
+   text-align: left;
+   flex-direction: column;
+   height:100%;
+}
+
+
+
